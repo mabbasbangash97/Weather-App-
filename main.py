@@ -12,11 +12,11 @@ response = requests.get(URL)
 
 if response.status_code == 200:
 
-    data = response.json()#
+    data = response.json()
 
     main = data['main']
 
-    temperature = (main['temp']-273.5)
+    temperature = round((main['temp']-273.5),2)
 
     humidity = main['humidity']
 
