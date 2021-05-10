@@ -4,7 +4,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 
 CITY = input("Enter name of the city: ")
 
-API_KEY = 'a3664fd42385abd8fa358c01042d3fdd' #Get your API Key from openweather
+API_KEY = '' #Get your API Key from openweather
 
 URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY
 
