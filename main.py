@@ -34,6 +34,7 @@ if response.status_code == 200:
     print(f"{CITY} \n Temperature: {temperature} °C \n Feels-like: {feelslike} °C \n Humididty: {humidity} g/m3 \n Pressure: {pressure} mmHg \n visibility: {visibility} km")
 
     #print(f"Weather Report: {report[0]['description']}")
+    print("JIRA ISSUES PRIVATE REPOS DATA in ORANGE PRO AI")
 
 else:
 
